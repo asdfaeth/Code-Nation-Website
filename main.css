@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.backimg {
+    background: url("desk.jpeg");
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.backgroundcol {
+    background-color: rgba(196, 116, 168, 0.3);
+    text-align: right;
+}
+
+.link {
+    padding: 10px 20px 30px;
+    text-decoration: none;
+    color: white;  
+}
+
+
+
+h1 {
+    font-size: 60px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.name {
+    animation: drop  1.5s ease;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px)
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+
+}
+
+/* .container-1 div, .container-2 div, .container-3 div{
+    border: 2px #ccc solid;
+    padding: 10px;
+} */
+
+.container-1 div, .container-2 div, .container-3 div, .container-4 div{
+    padding: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    flex-basis: 27%;
+}
+
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.box2 {
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 10%;
+
+}
+
+.box3 {
+}
+
+.container-4 {
+    display: flex;
+
+
+
+}
+
+
+.box4 {
+    width: 60%;
+}
+
+.box5 {
+    width: 60%;
+    height: 50%;
+}
+
+/* justify-content: space-around;
+width: 20%; */
+
+
+/*
+    flex-direction: column;
+    justify-content: center;
+.box3 {
+    flex: 1;  
+} */
+/* .boxA {
+    flex: 1;
+    width: 30%;
+} */
+
+/* .boxB {
+    flex: 0.8;  
+}
+
+.boxC {
+    flex: 0.8;
+}
+
+.boxD {
+    flex: 0.8;  
+} */
